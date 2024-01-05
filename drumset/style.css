@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.pxhere.com%2Fphotos%2F91%2F30%2Faudience_crowd_people_persons_concert_event_music_fans-874486.jpg!d&f=1&nofb=1&ipt=2bb49b3058de70a423667086f248babbd09d11a60015d86997b2d313163c891b&ipo=images");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.keys{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+.key{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    opacity: 0.8;
+}
+
+.sound{
+    font-size: 0.9rem;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color:white;
+    opacity: 0.8;
+}
